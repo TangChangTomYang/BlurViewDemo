@@ -1,0 +1,6 @@
+framework module BlurViewDemo {
+  umbrella header "BlurViewDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

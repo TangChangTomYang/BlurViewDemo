@@ -1,0 +1,22 @@
+{
+  "name": "BlurViewDemo",
+  "version": "0.1.0",
+  "summary": "A short description of BlurViewDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/TangchangTomYang/BlurViewDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "TangchangTomYang": "690852195@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/TangchangTomYang/BlurViewDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BlurViewDemo/Classes/**/*"
+}

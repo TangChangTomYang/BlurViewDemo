@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1480BDFA1F4C07A6007F6090 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 1480BDEF1F4C07A6007F6090 /* UIImage+ImageEffects.m */; };
+		1480BDFB1F4C07A6007F6090 /* UIImageView+LBBlurredImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1480BDF11F4C07A6007F6090 /* UIImageView+LBBlurredImage.m */; };
+		1480BDFC1F4C07A6007F6090 /* UIView+SnapImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1480BDF31F4C07A6007F6090 /* UIView+SnapImage.m */; };
+		1480BDFD1F4C07A6007F6090 /* YRblurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1480BDF51F4C07A6007F6090 /* YRblurView.m */; };
+		1480BDFE1F4C07A6007F6090 /* YRblurView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1480BDF61F4C07A6007F6090 /* YRblurView.xib */; };
+		1480BDFF1F4C07A6007F6090 /* YRAdjusltLightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1480BDF81F4C07A6007F6090 /* YRAdjusltLightView.m */; };
 		28FF43515135B4DEA01E2D03 /* Pods_BlurViewDemo_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB26FCC91261ACFE1C7EF8C /* Pods_BlurViewDemo_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,6 +43,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1480BDEE1F4C07A6007F6090 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		1480BDEF1F4C07A6007F6090 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		1480BDF01F4C07A6007F6090 /* UIImageView+LBBlurredImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LBBlurredImage.h"; sourceTree = "<group>"; };
+		1480BDF11F4C07A6007F6090 /* UIImageView+LBBlurredImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LBBlurredImage.m"; sourceTree = "<group>"; };
+		1480BDF21F4C07A6007F6090 /* UIView+SnapImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SnapImage.h"; sourceTree = "<group>"; };
+		1480BDF31F4C07A6007F6090 /* UIView+SnapImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SnapImage.m"; sourceTree = "<group>"; };
+		1480BDF41F4C07A6007F6090 /* YRblurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRblurView.h; sourceTree = "<group>"; };
+		1480BDF51F4C07A6007F6090 /* YRblurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRblurView.m; sourceTree = "<group>"; };
+		1480BDF61F4C07A6007F6090 /* YRblurView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YRblurView.xib; sourceTree = "<group>"; };
+		1480BDF71F4C07A6007F6090 /* YRAdjusltLightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRAdjusltLightView.h; sourceTree = "<group>"; };
+		1480BDF81F4C07A6007F6090 /* YRAdjusltLightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRAdjusltLightView.m; sourceTree = "<group>"; };
 		37808B1848C6CD78DDE40CC0 /* Pods-BlurViewDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlurViewDemo_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlurViewDemo_Example/Pods-BlurViewDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5CB26FCC91261ACFE1C7EF8C /* Pods_BlurViewDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlurViewDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* BlurViewDemo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurViewDemo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,12 +77,12 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		883D57BC77EC6AF5EC1F2B8B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		92CB128F3E9E99254858C91A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		883D57BC77EC6AF5EC1F2B8B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		92CB128F3E9E99254858C91A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9BB78E933A0058917DB699F0 /* Pods-BlurViewDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlurViewDemo_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlurViewDemo_Tests/Pods-BlurViewDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C5856F66C2446821464A8207 /* Pods-BlurViewDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlurViewDemo_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlurViewDemo_Tests/Pods-BlurViewDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CA4276734F3AFA955C05D362 /* Pods-BlurViewDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlurViewDemo_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlurViewDemo_Example/Pods-BlurViewDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E83836D87A5350C3D536151D /* BlurViewDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BlurViewDemo.podspec; path = ../BlurViewDemo.podspec; sourceTree = "<group>"; };
+		E83836D87A5350C3D536151D /* BlurViewDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BlurViewDemo.podspec; path = ../BlurViewDemo.podspec; sourceTree = "<group>"; };
 		F314E0F6326C9F6A2F8CDE39 /* Pods_BlurViewDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlurViewDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -106,6 +123,25 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		1480BDF91F4C07A6007F6090 /* LBBlurredImage */ = {
+			isa = PBXGroup;
+			children = (
+				1480BDEE1F4C07A6007F6090 /* UIImage+ImageEffects.h */,
+				1480BDEF1F4C07A6007F6090 /* UIImage+ImageEffects.m */,
+				1480BDF01F4C07A6007F6090 /* UIImageView+LBBlurredImage.h */,
+				1480BDF11F4C07A6007F6090 /* UIImageView+LBBlurredImage.m */,
+				1480BDF21F4C07A6007F6090 /* UIView+SnapImage.h */,
+				1480BDF31F4C07A6007F6090 /* UIView+SnapImage.m */,
+				1480BDF41F4C07A6007F6090 /* YRblurView.h */,
+				1480BDF51F4C07A6007F6090 /* YRblurView.m */,
+				1480BDF61F4C07A6007F6090 /* YRblurView.xib */,
+				1480BDF71F4C07A6007F6090 /* YRAdjusltLightView.h */,
+				1480BDF81F4C07A6007F6090 /* YRAdjusltLightView.m */,
+			);
+			name = LBBlurredImage;
+			path = "../../../../EffectViewDemo-master/EffectViewDemo/EffectViewDemo/LBBlurredImage";
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +179,7 @@
 		6003F593195388D20070C39A /* Example for BlurViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1480BDF91F4C07A6007F6090 /* LBBlurredImage */,
 				6003F59C195388D20070C39A /* YRAppDelegate.h */,
 				6003F59D195388D20070C39A /* YRAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -283,6 +320,7 @@
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				1480BDFE1F4C07A6007F6090 /* YRblurView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,7 +432,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1480BDFC1F4C07A6007F6090 /* UIView+SnapImage.m in Sources */,
+				1480BDFA1F4C07A6007F6090 /* UIImage+ImageEffects.m in Sources */,
+				1480BDFD1F4C07A6007F6090 /* YRblurView.m in Sources */,
 				6003F59E195388D20070C39A /* YRAppDelegate.m in Sources */,
+				1480BDFF1F4C07A6007F6090 /* YRAdjusltLightView.m in Sources */,
+				1480BDFB1F4C07A6007F6090 /* UIImageView+LBBlurredImage.m in Sources */,
 				6003F5A7195388D20070C39A /* YRViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

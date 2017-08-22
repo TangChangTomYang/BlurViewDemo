@@ -7,6 +7,8 @@
 //
 
 #import "YRViewController.h"
+#import "YRblurView.h"
+
 
 @interface YRViewController ()
 
@@ -20,10 +22,15 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    
+    
+    //    YRblurView *d = [[YRblurView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    YRblurView *d = [YRblurView blurView];
+    //    [self.view addSubview:d];
+    
+    [d show];
 }
 
 @end

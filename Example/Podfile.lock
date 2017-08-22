@@ -1,0 +1,16 @@
+PODS:
+  - BlurViewDemo (0.1.0)
+
+DEPENDENCIES:
+  - BlurViewDemo (from `../`)
+
+EXTERNAL SOURCES:
+  BlurViewDemo:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BlurViewDemo: 581f6bee7ac8bff1ea5fd3a6de8f0d7e97bd1bd2
+
+PODFILE CHECKSUM: eef8a3b29273d32ca274b0eeba4f67a27eefcd80
+
+COCOAPODS: 1.2.1
