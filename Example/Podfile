@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BlurViewDemo_Example' do
+  pod 'BlurViewDemo', :path => '../'
+
+  target 'BlurViewDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
